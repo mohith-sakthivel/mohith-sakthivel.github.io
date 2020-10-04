@@ -74,7 +74,13 @@
     text-decoration: none;
   }
   
-  body,
+  body{
+    margin: 0;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #F0F0F0;
+  }
+
   td,
   th,
   tr,
@@ -92,6 +98,15 @@
   heading {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 22px;
+  }
+
+  heading::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -55px; 
+    height: 55px; 
+    visibility: hidden; 
+    pointer-events: none;
   }
   
   papertitle {
@@ -128,4 +143,41 @@
   
   span.highlight {
     background-color: #ffffd0;
+  }
+
+  /* Add a black background color to the top navigation */
+  #navbar {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  #navbar a {
+    float: right;
+    display: block;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  #navbar a:hover {
+    color: #3C9BC8;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 50px;
   }
