@@ -181,3 +181,14 @@
   .sticky + .content {
     padding-top: 50px;
   }
+
+/* Properties for footer */
+  #footer {
+    background-color: #000000;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+ 
