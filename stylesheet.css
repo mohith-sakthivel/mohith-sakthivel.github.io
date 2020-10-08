@@ -186,9 +186,13 @@
   #footer {
     background-color: #000000;
     overflow: hidden;
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+  }
+
+  #footer a{
+    font-size: 13px;
   }
  
