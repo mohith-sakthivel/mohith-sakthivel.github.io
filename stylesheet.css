@@ -185,6 +185,9 @@
 /* Properties for footer */
   #footer {
     background-color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     overflow: hidden;
     height: 50px;
     display: flex;
