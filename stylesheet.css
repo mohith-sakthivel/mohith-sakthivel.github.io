@@ -78,7 +78,7 @@
     margin: 0;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px;
-    background-color: #FAFAFA;
+    background-color: #F0F0F0;
   }
 
   td,
@@ -155,7 +155,7 @@
   #navbar a {
     float: right;
     display: block;
-    color: #FAFAFA;
+    color: #F0F0F0;
     text-align: center;
     padding: 16px 20px;
     text-decoration: none;
