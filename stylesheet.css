@@ -161,6 +161,16 @@
     text-decoration: none;
     font-size: 16px;
   }
+
+  .navbar-left {
+    float: left;
+    display: block;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 22px;
+  }
   
   /* Change the color of links on hover */
   #navbar a:hover {

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mohith Sakthivel - Blog</title>
+
+    <meta name="author" content="Mohith Kaameswaran Sakthivel">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="images/page-icon.png">
+
+    <a name="blog"></a>
+    <div id="navbar">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#news">News</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="resources.html">Resources</a>
+        <div class="navbar-left">
+            Mohith Sakthivel
+        </div>
+    </div>
+</head>
+
+<body style="margin-bottom: -50px;">
+    <div class="content">
+        Page under construction...
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+<footer style=" margin: 0;">
+    <div id="footer">
+        <p style="font-size: 13px; color: #F0F0F0;">
+            Webpage inspired from <a href="https://jonbarron.info/" target="_blank"> Jon Barron </a>
+            and <a href="https://www.cs.cmu.edu/~dpathak/" target="_blank"> Deepak Pathak</a>
+        </p>
+    </div>
+</footer>
+
+</html>
