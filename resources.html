@@ -6,13 +6,14 @@
     <title>Resources</title>
 
     <meta name="author" content="Mohith Kaameswaran Sakthivel">
+    <!-- Field to change display type -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/png" href="images/page-icon.png">
 
     <a name="resources"></a>
     <div id="navbar">
-        <a href="index.html#home">Home</a>
+        <a href="index.html">Home</a>
         <a href="index.html#news">News</a>
         <a href="blog.html">Blog</a>
         <a class="active" href="resources.html">Resources</a>
@@ -23,10 +24,10 @@
 
 </head>
 
-<body style="margin-bottom: -50px;">
+<body style="margin-bottom:-50px; position:relative; min-height:100vh;">
     <div class="content">
         <section
-            style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height: 1.5;text-indent: 4%;text-align: justify;vertical-align:middle;">
+            style="width:100%; max-width:800px; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto; line-height:1.5; text-indent:4%; text-align:justify; vertical-align:middle;">
             <heading id="Reources">Resources</heading>
             <p>
                 A large volume of machine learning resources are available on the web and often it can
@@ -43,7 +44,7 @@
         </section>
 
         <section
-            style="max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height: 1.5;padding-left: 4%;">
+            style="max-width:800px; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto; line-height: 1.5; padding-left: 4%;">
             <h3>Deep Learning</h3>
             <ul>
                 <li><a href="https://www.youtube.com/watch?v=XL07WEc2TRI" target="_blank">
@@ -70,6 +71,35 @@
             </ul>
         </section>
     </div>
+
+    <div id="content-wrap"></div>
+
+    <footer id="footer">
+        <table>
+            <tbody>
+                <tr>
+                    <td style="padding-top:4px; padding-bottom:3px;">
+                        <a href="mailto:mohithksakthivel@gmail.com" title="mohithksakthivel@gmail.com"><img
+                                style="padding-right:15px; width: 25px;" src="images/icons/mail.svg"></a>
+                        <a href="https://twitter.com/iam_mohith" target="_blank"><img
+                                style="padding-right:15px; width: 25px;" src="images/icons/twitter-2-d.svg"></a>
+                        <a href="https://github.com/mohith-sakthivel" target="_blank"><img
+                                style="padding-right:15px; width: 25px;" src="images/icons/github-d.svg"></a>
+                        <a href="https://www.linkedin.com/in/mohithsakthivel/" target="_blank"><img
+                                style="padding-right:15px; width: 25px;" src="images/icons/linkedin-d.svg"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" target="_blank"
+                            title="Dave Gandy">Dave Gandy</a> and <a href="https://www.flaticon.com/authors/those-icons"
+                            target="_blank" title="Those Icons">Those Icons</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+
     <script>
         window.onscroll = function () { myFunction() };
 
@@ -85,14 +115,5 @@
         }
     </script>
 </body>
-
-<footer style=" margin: 0;">
-    <div id="footer">
-        <p style="font-size: 13px; color: #F0F0F0;">
-            Webpage inspired from <a href="https://jonbarron.info/" target="_blank"> Jon Barron </a>
-            and <a href="https://www.cs.cmu.edu/~dpathak/" target="_blank"> Deepak Pathak</a>
-        </p>
-    </div>
-</footer>
 
 </html>

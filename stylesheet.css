@@ -192,17 +192,25 @@
 /* Properties for footer */
   #footer {
     background-color: #000000;
-    position: relative;
+    color: #F0F0F0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     overflow: hidden;
-    height: 50px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
   }
 
   #footer a{
-    font-size: 13px;
+    font-size: 12px;
+  }
+
+  #content-wrap {
+    padding-bottom: 75px;    /* Value equal to footer height */
   }
  
