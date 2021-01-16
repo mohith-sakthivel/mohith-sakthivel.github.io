@@ -169,6 +169,10 @@
     font-size: 22px;
   }
   
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){  .navbar-left { display: none;}}
+  
   /* Change the color of links on hover */
   #navbar a:hover {
     color: #3C9BC8;
