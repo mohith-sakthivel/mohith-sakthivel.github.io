@@ -21,14 +21,13 @@
             Mohith Sakthivel
         </div>
     </div>
+
 </head>
 
 <body style="margin-bottom:-50px; position:relative; min-height:100vh;">
     <div class="content">
         <div style="text-align:center;">
-            <p>
-                <name>Mohith Kaameswaran Sakthivel</name>
-            </p>
+            <name>Mohith Kaameswaran Sakthivel</name>
             <p>
                 <b>Email :&nbsp&nbsp</b>
                 <a href="mailto:mohithksakthivel@gmail.com">mohithksakthivel@gmail.com</a>
@@ -39,11 +38,21 @@
             style="width:100%; max-width:800px; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
             <tbody>
                 <tr style="padding:0px; line-height:1.5;">
-                    <td style="padding:5%; width:40%; max-width:40%">
+                    <td style="padding:2.5%; width:35%; max-width:35%">
                         <img style="width:100%; max-width:100%" alt="profile photo"
                             src="images/mohithsakthivel-photo-box.png" class="hoverZoomLink">
+                        <BR><BR>
+                        <p style="text-align:center">
+                            <a href="data/mohith-sakthivel-CV.pdf" target="_blank">CV</a>
+                            &nbsp&nbsp|&nbsp&nbsp
+                            <a href="https://www.linkedin.com/in/mohith-sakthivel/" target="_blank">Linkedin</a>
+                            &nbsp&nbsp|&nbsp&nbsp
+                            <a href="https://github.com/mohith-sakthivel" target="_blank">GitHub</a>
+                            &nbsp&nbsp|&nbsp&nbsp
+                            <a href="https://twitter.com/iam_mohith" target="_blank">Twitter</a>
+                        </p>
                     </td>
-                    <td style="padding:2.5%; width:63%; vertical-align:middle; text-align:justify;">
+                    <td style="padding:2.5%; width:65%; vertical-align:middle; text-align:justify;">
                         <p>I am a post baccalaureate fellow at
                             <a href="https://rbcdsai.iitm.ac.in/" target="_blank">Robert Borch Centre of
                                 Data Science and AI
@@ -57,32 +66,19 @@
                         <p>
                             My research revolves around areas such exploration through
                             intrinsic motivation, abstraction, and meta-reinforcement learning. Lately, I've also been
-                            thinking a lot about causal and bayesian reasoning and their role in building 
+                            thinking a lot about causal and bayesian reasoning and their role in building
                             intelligent systems.
                         </p>
                         <p>
                             Previously, I worked at ABB as a Robotics Engineer.
-                            I did my undergrad in mechanical engineering at 
+                            I did my undergrad in mechanical engineering at
                             <a href="https://www.psgtech.edu/" target="_blank">PSG College
-                            of Technology</a>. I also spent a semester on exchange at 
-                            <a href="https://www.rmit.edu.au/"target="_blank">RMIT University</a>.
+                                of Technology</a>. I also spent a semester on exchange at
+                            <a href="https://www.rmit.edu.au/" target="_blank">RMIT University</a>.
                         </p>
                         <p>
                             Feel free to write to me if you wish to know more about my research or to chat about other
                             exciting ideas.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p style="text-align:center">
-                            <a href="data/mohith-sakthivel-CV.pdf" target="_blank">CV</a>
-                            &nbsp&nbsp|&nbsp&nbsp
-                            <a href="https://www.linkedin.com/in/mohithsakthivel/" target="_blank">Linkedin</a>
-                            &nbsp&nbsp|&nbsp&nbsp
-                            <a href="https://github.com/mohith-sakthivel" target="_blank">GitHub</a>
-                            &nbsp&nbsp|&nbsp&nbsp
-                            <a href="https://twitter.com/iam_mohith" target="_blank">Twitter</a>
                         </p>
                     </td>
                 </tr>
@@ -105,14 +101,9 @@
         </table>
     </div>
 
-    <div style="height:50px;" id="content-wrap"></div>
+    <div id="content-wrap"></div>
 
-    <footer style="height:50px;" id="footer">
-        <p style="font-size:13px;">
-            Webpage inspired from <a href="https://jonbarron.info/" target="_blank"> Jon Barron </a>
-            and <a href="https://www.cs.cmu.edu/~dpathak/" target="_blank"> Deepak Pathak</a>
-        </p>
-    </footer>
+    <footer id="footer"></footer>
 
     <script>
         window.onscroll = function () { myFunction() };
@@ -127,6 +118,12 @@
                 navbar.classList.remove("sticky");
             }
         }
+    </script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
     </script>
 </body>
 

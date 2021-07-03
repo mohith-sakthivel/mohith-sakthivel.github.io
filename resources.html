@@ -21,7 +21,6 @@
             Mohith Sakthivel
         </div>
     </div>
-
 </head>
 
 <body style="margin-bottom:-50px; position:relative; min-height:100vh;">
@@ -35,7 +34,7 @@
                 thoroughly enjoyed and wish to recommend to others.
             </p>
             <p>
-                Feel free to drop me an e-mail if you have any recommendations that could potentially make into this list.
+                Feel free to drop me an e-mail if you have any recommendations that you think should be on this list.
             </p>
         </section>
 
@@ -47,8 +46,8 @@
                         Information Theory of Deep Learning</a> - Prof. Naftali Tishby (Lecture)</li>
                 <li><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">
                         Understanding LSTM Networks</a> - Christopher Olah (Blog)</li>
-                <li><a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF" target="_blank">
-                    Deep Learning Lecture Series 2020</a> - DeepMind x UCL (Lectures)</li>
+                <li><a href="https://www.youtube.com/watch?v=uF53xsT7mjc" target="_blank">
+                    Theoretical Foundations of Graph Neural Networks</a> - Petar Veličković (Talk)</li>
             </ul>
             <h3>Deep Reinforcement Learning</h3>
             <ul>
@@ -70,41 +69,12 @@
                 <li><a href="https://web.mit.edu/tslvr/www/lessons_two_years.html" target="_blank">
                         Lessons from My First Two Years of AI Research</a> - Tom Silver (Blog)</li>
             </ul>
-            <h3>Others</h3>
-            <ul>
-                <li><a href="https://eagleman.com/books/the-brain/">The Brain: Story of You</a>
-                    - David Eagleman (Book)</li>
-            </ul>
         </section>
     </div>
 
     <div id="content-wrap"></div>
 
-    <footer id="footer">
-        <table>
-            <tbody>
-                <tr>
-                    <td style="padding-top:4px; padding-bottom:3px;">
-                        <a href="mailto:mohithksakthivel@gmail.com" title="mohithksakthivel@gmail.com"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/mail.svg"></a>
-                        <a href="https://twitter.com/iam_mohith" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/twitter-2-d.svg"></a>
-                        <a href="https://github.com/mohith-sakthivel" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/github-d.svg"></a>
-                        <a href="https://www.linkedin.com/in/mohithsakthivel/" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/linkedin-d.svg"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" target="_blank"
-                            title="Dave Gandy">Dave Gandy</a> and <a href="https://www.flaticon.com/authors/those-icons"
-                            target="_blank" title="Those Icons">Those Icons</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </footer>
+    <footer id="footer"></footer>
 
     <script>
         window.onscroll = function () { myFunction() };
@@ -119,6 +89,12 @@
                 navbar.classList.remove("sticky");
             }
         }
+    </script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
     </script>
 </body>
 

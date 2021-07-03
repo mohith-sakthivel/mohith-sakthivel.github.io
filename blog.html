@@ -21,39 +21,16 @@
             Mohith Sakthivel
         </div>
     </div>
-
 </head>
 
 <body style="margin-bottom:-50px; position:relative; min-height:100vh;">
-    <div class="content">Page under construction...</div>
+    <div class="content">
+        Page under construction...
+    </div>
 
     <div id="content-wrap"></div>
 
-    <footer id="footer">
-        <table>
-            <tbody>
-                <tr>
-                    <td style="padding-top:4px; padding-bottom:3px;">
-                        <a href="mailto:mohithksakthivel@gmail.com"><img style="padding-right:15px; width: 25px;"
-                                src="images/icons/mail.svg"></a>
-                        <a href="https://twitter.com/iam_mohith" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/twitter-2-d.svg"></a>
-                        <a href="https://github.com/mohith-sakthivel" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/github-d.svg"></a>
-                        <a href="https://www.linkedin.com/in/mohithsakthivel/" target="_blank"><img
-                                style="padding-right:15px; width: 25px;" src="images/icons/linkedin-d.svg"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave
-                            Gandy</a> and
-                        <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </footer>
+    <footer id="footer"></footer>
 
     <script>
         window.onscroll = function () { myFunction() };
@@ -68,6 +45,12 @@
                 navbar.classList.remove("sticky");
             }
         }
+    </script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
     </script>
 </body>
 
